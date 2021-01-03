@@ -3,4 +3,4 @@ CREATE TABLE producto (idProducto INT NOT NULL) ENGINE = InnoDB DEFAULT CHARSET 
 ALTER TABLE producto RENAME productos;
 RENAME TABLE productos to producto, producto to productos;
 //Eliminar tabla
-DROP TABLE productos
+DROP TABLE productos;
