@@ -1,0 +1,1 @@
+CREATE TABLE producto (idProducto INT NOT NULL) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;
