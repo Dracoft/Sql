@@ -15,3 +15,8 @@ SELECT rand();//Valor aleatorio
 SELECT round(16.5)//Aplicar el redondeado 
 
 SELECT truncate(5.432, 2);//Cortar decimales
+
+//TEXTO CADENAS
+
+SELECT concat(nombre, ' ', apellido) AS nombre from empleado;
+SELECT concat_ws(' ', nombre, apellido) AS nombre from empleado;
