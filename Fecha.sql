@@ -1,1 +1,7 @@
+SELECT CURDATE();
 
+SELECT NOW();
+
+SELECT LOCALTIME();
+
+SELECT STR_TO_DATE('09 Aug, 2020', '%d %m, %y');
