@@ -1,2 +1,2 @@
 SELECT * FROM NOMTABLA WHERE IdPersona = 2;
-SELECT * FROM NOMTABLA WHERE Pais = "Estados Unidos;
+SELECT * FROM NOMTABLA WHERE Pais = 'Estados Unidos';
