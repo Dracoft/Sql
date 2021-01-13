@@ -13,3 +13,9 @@ SELECT substring(nombre, posicion, cantidaddecaracteres) as subcadena from produ
                                            
 SELECT ltrim('           Eliminar texto con espacios al principio');     
 SELECT rtrim('Elminar texto con espacios al final            ')
+SELECT trim('     Espacios centro       ');
+                                           
+SELECT lower(nombre) from producto;//Volver todo a minuscula
+SELECT upper(nombre) from producto;//Volver todo a mayuscula  
+                                           
+SELECT convert('20201201', date) as date;
